@@ -41,7 +41,7 @@ from __future__ import division
 import roslib
 #roslib.load_manifest('object_manipulator')
 import rospy
-from pr2_gripper_grasp_planner_cluster.srv import FindClusterBoundingBox, FindClusterBoundingBoxResponse, \
+from grasp_planner_cluster.srv import FindClusterBoundingBox, FindClusterBoundingBoxResponse, \
                    FindClusterBoundingBox2, FindClusterBoundingBox2Response
 import cluster_bounding_box_finder
 import cluster_bounding_box_finder_3d

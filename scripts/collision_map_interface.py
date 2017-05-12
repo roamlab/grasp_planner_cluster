@@ -42,12 +42,12 @@
 import random, time, math, scipy, pdb
 import rospy
 #from arm_navigation_msgs.msg import Shape
-from pr2_gripper_grasp_planner_cluster.msg import Shape
+from grasp_planner_cluster.msg import Shape
 from tabletop_object_detector.msg import Table
 #from arm_navigation_msgs.msg import MakeStaticCollisionMapAction, MakeStaticCollisionMapGoal
-from pr2_gripper_grasp_planner_cluster.msg import MakeStaticCollisionMapAction, MakeStaticCollisionMapGoal
+from grasp_planner_cluster.msg import MakeStaticCollisionMapAction, MakeStaticCollisionMapGoal
 #from arm_navigation_msgs.msg import CollisionObject, AttachedCollisionObject, CollisionObjectOperation
-from pr2_gripper_grasp_planner_cluster.msg import AttachedCollisionObject, CollisionObject, CollisionObjectOperation
+from grasp_planner_cluster.msg import AttachedCollisionObject, CollisionObject, CollisionObjectOperation
 from actionlib_msgs.msg import GoalStatus
 from std_srvs.srv import Empty, EmptyRequest
 import actionlib

@@ -47,7 +47,7 @@ import math
 import tf
 import scipy.linalg
 from geometry_msgs.msg import PoseStamped, Point, Pose, Vector3
-from pr2_gripper_grasp_planner_cluster.srv import FindClusterBoundingBox, FindClusterBoundingBoxResponse
+from grasp_planner_cluster.srv import FindClusterBoundingBox, FindClusterBoundingBoxResponse
 #from convert_functions import *
 import convert_functions
 
