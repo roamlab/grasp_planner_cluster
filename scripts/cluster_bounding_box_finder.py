@@ -48,7 +48,7 @@ import tf
 import scipy.linalg
 from geometry_msgs.msg import PoseStamped, Point, Pose, Vector3
 #from object_manipulation_msgs.srv import FindClusterBoundingBox, FindClusterBoundingBoxResponse
-from pr2_gripper_grasp_planner_cluster.srv import FindClusterBoundingBox, FindClusterBoundingBoxResponse
+from grasp_planner_cluster.srv import FindClusterBoundingBox, FindClusterBoundingBoxResponse
 from convert_functions import *
 
 ## class for using PCA to find the principal directions and bounding
